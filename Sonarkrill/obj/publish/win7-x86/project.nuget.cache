@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "qbr02FlBzQoRtDeTp4OIGu9rbDMxxsX+T67ITiafiNOzlaZPSEtuLi6+LdYKD/B8Ist+/FWCzHs9rT46xpbEdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\code\\Sonarkrill20220712\\Sonarkrill\\SonarKrill.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\geoapi.coordinatesystems\\1.7.5\\geoapi.coordinatesystems.1.7.5.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\geoapi.core\\1.7.5\\geoapi.core.1.7.5.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\nettopologysuite.core\\1.15.3\\nettopologysuite.core.1.15.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\projnet4geoapi\\1.4.1\\projnet4geoapi.1.4.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\stub.system.data.sqlite.core.netframework\\1.0.113.3\\stub.system.data.sqlite.core.netframework.1.0.113.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.7\\system.data.sqlite.core.1.0.113.7.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.drawing.common\\4.6.0\\system.drawing.common.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

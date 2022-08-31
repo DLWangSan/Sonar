@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetTopologySuite.Core" Version="1.15.3" />
+    <PackageReference Include="ProjNET4GeoAPI" Version="1.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpMap">
+      <HintPath>..\DLL\SharpMap.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpMap.Extensions">
+      <HintPath>..\DLL\SharpMap.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpMap.Layers.BruTile">
+      <HintPath>..\DLL\SharpMap.Layers.BruTile.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpMap.Layers.HeatLayer">
+      <HintPath>..\DLL\SharpMap.Layers.HeatLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpMap.UI">
+      <HintPath>..\DLL\SharpMap.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

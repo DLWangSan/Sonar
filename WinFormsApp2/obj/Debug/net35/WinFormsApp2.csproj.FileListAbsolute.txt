@@ -1,0 +1,13 @@
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\Interop.TeeChart.dll
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.csproj.ResolveComReference.cache
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.Form1.resources
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.csproj.GenerateResource.cache
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.AssemblyInfoInputs.cache
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.AssemblyInfo.cs
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.csproj.CoreCompileInputs.cache
+D:\work\Sonarkrill\WinFormsApp2\bin\Debug\net35\WinFormsApp2.exe.config
+D:\work\Sonarkrill\WinFormsApp2\bin\Debug\net35\WinFormsApp2.exe
+D:\work\Sonarkrill\WinFormsApp2\bin\Debug\net35\WinFormsApp2.pdb
+D:\work\Sonarkrill\WinFormsApp2\bin\Debug\net35\Interop.TeeChart.dll
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.exe
+D:\work\Sonarkrill\WinFormsApp2\obj\Debug\net35\WinFormsApp2.pdb

@@ -1,0 +1,399 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GeoAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {}
+        }
+      },
+      "NetTopologySuite.Core/1.15.3": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "[1.7.5, 2.0.0-A)"
+        },
+        "compile": {
+          "lib/net45/NetTopologySuite.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NetTopologySuite.dll": {}
+        }
+      },
+      "ProjNET4GeoAPI/1.4.1": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/ProjNET.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ProjNET.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GeoAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {}
+        }
+      },
+      "NetTopologySuite.Core/1.15.3": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "[1.7.5, 2.0.0-A)"
+        },
+        "compile": {
+          "lib/net45/NetTopologySuite.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NetTopologySuite.dll": {}
+        }
+      },
+      "ProjNET4GeoAPI/1.4.1": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/ProjNET.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ProjNET.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoAPI.CoordinateSystems/1.7.5": {
+      "sha512": "JBcvkeQFjCW9NTfkII5WiJNmnv0ZtYA/VTVljbIqDFWBJ8kHwu2UHd2MVStD/VVHVnLoyNcDIapsuTENdlyF3g==",
+      "type": "package",
+      "path": "geoapi.coordinatesystems/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geoapi.coordinatesystems.1.7.5.nupkg.sha512",
+        "geoapi.coordinatesystems.nuspec",
+        "lib/net20/GeoAPI.CoordinateSystems.dll",
+        "lib/net20/GeoAPI.CoordinateSystems.pdb",
+        "lib/net20/GeoAPI.CoordinateSystems.xml",
+        "lib/net35-cf/GeoAPI.CoordinateSystems.dll",
+        "lib/net35-cf/GeoAPI.CoordinateSystems.pdb",
+        "lib/net35-cf/GeoAPI.CoordinateSystems.xml",
+        "lib/net35-client/GeoAPI.CoordinateSystems.dll",
+        "lib/net35-client/GeoAPI.CoordinateSystems.pdb",
+        "lib/net35-client/GeoAPI.CoordinateSystems.xml",
+        "lib/net40-client/GeoAPI.CoordinateSystems.dll",
+        "lib/net40-client/GeoAPI.CoordinateSystems.pdb",
+        "lib/net40-client/GeoAPI.CoordinateSystems.xml",
+        "lib/net403-client/GeoAPI.CoordinateSystems.dll",
+        "lib/net403-client/GeoAPI.CoordinateSystems.pdb",
+        "lib/net403-client/GeoAPI.CoordinateSystems.xml",
+        "lib/net45/GeoAPI.CoordinateSystems.dll",
+        "lib/net45/GeoAPI.CoordinateSystems.pdb",
+        "lib/net45/GeoAPI.CoordinateSystems.xml",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.deps.json",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.dll",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.pdb",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.xml",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.deps.json",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.dll",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.pdb",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.pdb",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.xml",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.dll",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.pdb",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.xml",
+        "src/CoordinateSystems/AxisInfo.cs",
+        "src/CoordinateSystems/AxisOrientationEnum.cs",
+        "src/CoordinateSystems/DatumType.cs",
+        "src/CoordinateSystems/IAngularUnit.cs",
+        "src/CoordinateSystems/ICompoundCoordinateSystem.cs",
+        "src/CoordinateSystems/ICoordinateSystem.cs",
+        "src/CoordinateSystems/ICoordinateSystemAuthorityFactory.cs",
+        "src/CoordinateSystems/ICoordinateSystemFactory.cs",
+        "src/CoordinateSystems/IDatum.cs",
+        "src/CoordinateSystems/IEllipsoid.cs",
+        "src/CoordinateSystems/IFittedCoordinateSystem.cs",
+        "src/CoordinateSystems/IGeocentricCoordinateSystem.cs",
+        "src/CoordinateSystems/IGeodeticSpatialReference.cs",
+        "src/CoordinateSystems/IGeographicCoordinateSystem.cs",
+        "src/CoordinateSystems/IGeographicTransform.cs",
+        "src/CoordinateSystems/IHorizontalCoordinateSystem.cs",
+        "src/CoordinateSystems/IHorizontalDatum.cs",
+        "src/CoordinateSystems/IInfo.cs",
+        "src/CoordinateSystems/ILinearUnit.cs",
+        "src/CoordinateSystems/ILocalCoordinateSystem.cs",
+        "src/CoordinateSystems/ILocalDatum.cs",
+        "src/CoordinateSystems/IParameterInfo.cs",
+        "src/CoordinateSystems/IPrimeMeridian.cs",
+        "src/CoordinateSystems/IProjectedCoordinateSystem.cs",
+        "src/CoordinateSystems/IProjection.cs",
+        "src/CoordinateSystems/IUnit.cs",
+        "src/CoordinateSystems/IVerticalCoordinateSystem.cs",
+        "src/CoordinateSystems/IVerticalDatum.cs",
+        "src/CoordinateSystems/Parameter.cs",
+        "src/CoordinateSystems/ProjectionParameter.cs",
+        "src/CoordinateSystems/Transformations/DomainFlags.cs",
+        "src/CoordinateSystems/Transformations/ICoordinateTransformation.cs",
+        "src/CoordinateSystems/Transformations/ICoordinateTransformationFactory.cs",
+        "src/CoordinateSystems/Transformations/IMathTransform.cs",
+        "src/CoordinateSystems/Transformations/IMathTransformFactory.cs",
+        "src/CoordinateSystems/Transformations/TransformType.cs",
+        "src/CoordinateSystems/WGS84ConversionInfo.cs",
+        "src/ICoordinateSystemServices.cs"
+      ]
+    },
+    "GeoAPI.Core/1.7.5": {
+      "sha512": "Dy/YkgZ1szgx+xbVWqMi+4++Fm6v3szbVdei1LKPRZ3meSvgNSMZxqhar5IAeaTj5LcUHLtLGdfyUtkjnYbg3A==",
+      "type": "package",
+      "path": "geoapi.core/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geoapi.core.1.7.5.nupkg.sha512",
+        "geoapi.core.nuspec",
+        "lib/net20/GeoAPI.dll",
+        "lib/net20/GeoAPI.pdb",
+        "lib/net20/GeoAPI.xml",
+        "lib/net35-cf/GeoAPI.dll",
+        "lib/net35-cf/GeoAPI.pdb",
+        "lib/net35-cf/GeoAPI.xml",
+        "lib/net35-client/GeoAPI.dll",
+        "lib/net35-client/GeoAPI.pdb",
+        "lib/net35-client/GeoAPI.xml",
+        "lib/net40-client/GeoAPI.dll",
+        "lib/net40-client/GeoAPI.pdb",
+        "lib/net40-client/GeoAPI.xml",
+        "lib/net403-client/GeoAPI.dll",
+        "lib/net403-client/GeoAPI.pdb",
+        "lib/net403-client/GeoAPI.xml",
+        "lib/net45/GeoAPI.dll",
+        "lib/net45/GeoAPI.pdb",
+        "lib/net45/GeoAPI.xml",
+        "lib/netstandard1.0/GeoAPI.deps.json",
+        "lib/netstandard1.0/GeoAPI.dll",
+        "lib/netstandard1.0/GeoAPI.pdb",
+        "lib/netstandard1.0/GeoAPI.xml",
+        "lib/netstandard2.0/GeoAPI.deps.json",
+        "lib/netstandard2.0/GeoAPI.dll",
+        "lib/netstandard2.0/GeoAPI.pdb",
+        "lib/netstandard2.0/GeoAPI.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.pdb",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.xml",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.dll",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.pdb",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.xml",
+        "src/Consts.cs",
+        "src/DataStructures/Interval.cs",
+        "src/Geometries/Coordinate.cs",
+        "src/Geometries/Dimension.cs",
+        "src/Geometries/Envelope.cs",
+        "src/Geometries/IBoundable.cs",
+        "src/Geometries/ICoordinate.cs",
+        "src/Geometries/ICoordinateBuffer.cs",
+        "src/Geometries/ICoordinateFilter.cs",
+        "src/Geometries/ICoordinateSequence.cs",
+        "src/Geometries/ICoordinateSequenceFactory.cs",
+        "src/Geometries/ICoordinateSequenceFilter.cs",
+        "src/Geometries/ICurve.cs",
+        "src/Geometries/IEnvelope.cs",
+        "src/Geometries/IExpandable.cs",
+        "src/Geometries/IGeometry.cs",
+        "src/Geometries/IGeometryCollection.cs",
+        "src/Geometries/IGeometryComponentFilter.cs",
+        "src/Geometries/IGeometryFactory.cs",
+        "src/Geometries/IGeometryFilter.cs",
+        "src/Geometries/IIntersectable.cs",
+        "src/Geometries/ILineString.cs",
+        "src/Geometries/ILineal.cs",
+        "src/Geometries/ILinearRing.cs",
+        "src/Geometries/IMultiCurve.cs",
+        "src/Geometries/IMultiLineString.cs",
+        "src/Geometries/IMultiPoint.cs",
+        "src/Geometries/IMultiPolygon.cs",
+        "src/Geometries/IMultiSurface.cs",
+        "src/Geometries/IPoint.cs",
+        "src/Geometries/IPolygon.cs",
+        "src/Geometries/IPolygonal.cs",
+        "src/Geometries/IPrecisionModel.cs",
+        "src/Geometries/IPuntal.cs",
+        "src/Geometries/ISurface.cs",
+        "src/Geometries/IntersectionMatrix.cs",
+        "src/Geometries/Location.cs",
+        "src/Geometries/OgcGeometryType.cs",
+        "src/Geometries/Ordinate.cs",
+        "src/Geometries/Ordinates.cs",
+        "src/Geometries/OridinatesUtility.cs",
+        "src/Geometries/Prepared/IPreparedGeometry.cs",
+        "src/GeometryServiceProvider.cs",
+        "src/ICloneable.cs",
+        "src/IGeometryServices.cs",
+        "src/IO/ByteOrder.cs",
+        "src/IO/GeometryType.cs",
+        "src/IO/IGeometryReader.cs",
+        "src/IO/IGeometryWriter.cs",
+        "src/IO/ParseException.cs",
+        "src/Operation/Buffer/BufferStyle.cs",
+        "src/Operation/Buffer/EndCapStyle.cs",
+        "src/Operation/Buffer/IBufferParameters.cs",
+        "src/Operation/Buffer/JoinStyle.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/ValueParser.cs"
+      ]
+    },
+    "NetTopologySuite.Core/1.15.3": {
+      "sha512": "PvO7lSWjzaazm1m9fYBZkxAtXSkF+t9jneGyyMxKQ/4lso2RzZWrBO0KWeA5Zp8IWoI1Ar/jTodYmC5Nbwo4xw==",
+      "type": "package",
+      "path": "nettopologysuite.core/1.15.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35-client/NetTopologySuite.dll",
+        "lib/net35-client/NetTopologySuite.xml",
+        "lib/net40-client/NetTopologySuite.dll",
+        "lib/net40-client/NetTopologySuite.xml",
+        "lib/net403-client/NetTopologySuite.dll",
+        "lib/net403-client/NetTopologySuite.xml",
+        "lib/net45/NetTopologySuite.dll",
+        "lib/net45/NetTopologySuite.xml",
+        "lib/netcoreapp2.0/NetTopologySuite.dll",
+        "lib/netcoreapp2.0/NetTopologySuite.xml",
+        "lib/netstandard1.0/NetTopologySuite.deps.json",
+        "lib/netstandard1.0/NetTopologySuite.dll",
+        "lib/netstandard1.0/NetTopologySuite.xml",
+        "lib/netstandard1.3/NetTopologySuite.deps.json",
+        "lib/netstandard1.3/NetTopologySuite.dll",
+        "lib/netstandard1.3/NetTopologySuite.xml",
+        "lib/netstandard2.0/NetTopologySuite.deps.json",
+        "lib/netstandard2.0/NetTopologySuite.dll",
+        "lib/netstandard2.0/NetTopologySuite.xml",
+        "nettopologysuite.core.1.15.3.nupkg.sha512",
+        "nettopologysuite.core.nuspec"
+      ]
+    },
+    "ProjNET4GeoAPI/1.4.1": {
+      "sha512": "Gw1fW7vQpGB23XZJepG9Cvo2bjpPKuddmsb8+Bwap6KYJdEYWwqHIr+6YP3e391h0ksf6t8mzvj3FA0U/7hUfA==",
+      "type": "package",
+      "path": "projnet4geoapi/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35-client/ProjNET.dll",
+        "lib/net35-client/ProjNET.xml",
+        "lib/net40-client/ProjNET.dll",
+        "lib/net40-client/ProjNET.xml",
+        "lib/net403-client/ProjNET.dll",
+        "lib/net403-client/ProjNET.xml",
+        "lib/net45/ProjNET.dll",
+        "lib/net45/ProjNET.xml",
+        "lib/netstandard1.0/ProjNET.deps.json",
+        "lib/netstandard1.0/ProjNET.dll",
+        "lib/netstandard1.0/ProjNET.xml",
+        "lib/netstandard2.0/ProjNET.deps.json",
+        "lib/netstandard2.0/ProjNET.dll",
+        "lib/netstandard2.0/ProjNET.xml",
+        "projnet4geoapi.1.4.1.nupkg.sha512",
+        "projnet4geoapi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "NetTopologySuite.Core >= 1.15.3",
+      "ProjNET4GeoAPI >= 1.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\think01\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\work\\Sonarkrill\\WinFormsApp2\\WinFormsApp2.csproj",
+      "projectName": "WinFormsApp2",
+      "projectPath": "D:\\work\\Sonarkrill\\WinFormsApp2\\WinFormsApp2.csproj",
+      "packagesPath": "C:\\Users\\think01\\.nuget\\packages\\",
+      "outputPath": "D:\\work\\Sonarkrill\\WinFormsApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\think01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "NetTopologySuite.Core": {
+            "target": "Package",
+            "version": "[1.15.3, )"
+          },
+          "ProjNET4GeoAPI": {
+            "target": "Package",
+            "version": "[1.4.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

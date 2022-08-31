@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SonarKrill</id>
+    <version>1.0.0</version>
+    <authors>SonarKrill</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="NetTopologySuite.Core" version="1.15.3" exclude="Build,Analyzers" />
+        <dependency id="ProjNET4GeoAPI" version="1.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite.Core" version="1.0.113.7" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.7.2" />
+      <frameworkAssembly assemblyName="System.Windows.Forms.DataVisualization" targetFramework=".NETFramework4.7.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\projectFiles\CSharp\Sonarkrill\Sonarkrill\bin\Debug\net472\SonarKrill.exe" target="lib\net472\SonarKrill.exe" />
+  </files>
+</package>
